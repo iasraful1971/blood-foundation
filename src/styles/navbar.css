@@ -1,0 +1,45 @@
+.nav-area {
+  z-index: 9999 !important;
+  margin-bottom: 200px !important;
+}
+.main-nav {
+  background: #ffffff !important;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.dasboard-menu {
+  z-index: 99999;
+  margin-top: 40px;
+}
+
+.logout-btn {
+  background-color: black;
+  padding: 4px 8px;
+  color: #ffffff;
+}
+@media screen and (max-width: 650px) {
+  .logo-text {
+    font-size: 12px;
+  }
+  .logo-img {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover;
+  }
+  .login-button {
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -4px;
+  }
+  .dasboard-menu {
+    display: none;
+  }
+  .hidden-for-mobile {
+    display: none;
+  }
+}

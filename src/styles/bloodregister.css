@@ -1,0 +1,158 @@
+.blood-donation-container {
+  margin-top: 150px;
+}
+.donation-container-area {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #4b7edd;
+  box-shadow: rgba(189, 192, 196, 0.2) 0px 8px 24px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.donation-container-area h1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  color: rgb(223, 220, 233);
+}
+
+.blood-donation-container .logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-direction: column;
+}
+.blood-donation-container img {
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+}
+.blood-donation-container input {
+  background-color: #fff;
+  margin-bottom: 15px 0;
+  border: none !important;
+  outline: none !important;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: #000;
+  font-size: 18px;
+}
+
+.blood-donation-container input::placeholder {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.blood-register-three-flex {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.blood-register-three-flex input {
+  width: 32%;
+}
+.blood-register-two-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.blood-register-two-flex input {
+  width: 49%;
+}
+.blood-register-three-flex {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.blood-register-three-flex input {
+  width: 32%;
+}
+.blood-register-two-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blood-register-two-flex input {
+  width: 49%;
+}
+.blood-register-two-flex select {
+  width: 25%;
+  padding: 10px;
+  height: 45px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.button-data-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.button-data-sub button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 680px) {
+  .blood-donation-container {
+    margin-top: 10px;
+  }
+  .donation-container-area {
+    width: 100%;
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .blood-donation-container input {
+    width: 100%;
+  }
+  .blood-register-three-flex input:nth-child(1) {
+    margin-right: 15px;
+  }
+  .blood-register-three-flex input:nth-child(2) {
+    margin-right: 15px;
+  }
+  .blood-register-two-flex input:nth-child(1) {
+    margin-right: 5px;
+  }
+  .blood-register-two-flex input {
+    width: 100%;
+  }
+  .blood-register-two-flex {
+    display: block;
+  }
+  .blood-register-two-flex select {
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }
+  .blood-register-two-flex select:focus,
+  .blood-register-two-flex select:active {
+    outline: none;
+    border: none;
+  }
+  .donation-container-area h1 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    color: rgb(223, 220, 233);
+  }
+}

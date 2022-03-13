@@ -1,0 +1,59 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.hero-text {
+  flex: 1;
+  margin: 0 50px 0 0;
+}
+.hero-lottie {
+  flex: 1;
+}
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.hero-text button {
+  background-color: red;
+  font-weight: bold;
+  padding: 10px 30px;
+  color: rgb(250, 250, 250);
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.hero-text .blood {
+  color: red;
+}
+
+.hero-lottie img {
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .hero {
+    display: block;
+  }
+  .hero-lottie {
+    display: none;
+  }
+  .hero-text {
+    flex: 1;
+    margin: 0 10px 0 0;
+  }
+}

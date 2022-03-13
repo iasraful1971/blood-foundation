@@ -1,0 +1,74 @@
+.admin-dashboard-container {
+  margin: 0 80px;
+}
+.admin-nav {
+  background-color: rgb(99, 51, 209);
+  color: aliceblue;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.admin-nav h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* edit contact info  */
+.message-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f3f6f9;
+  box-shadow: rgba(220, 220, 228, 0.2) 0px 7px 29px 0px;
+  grid-gap: 50px;
+  border-radius: 10px;
+}
+.message-box-container-icon {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+.message-box-container-text h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(20, 18, 20);
+}
+.message-box-container-text p {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(31, 28, 28);
+}
+
+@media screen and (max-width: 600px) {
+  .admin-dashboard-container {
+    margin: 0 0px;
+  }
+  .message-box-container {
+    display: block;
+  }
+}
+
+/* add team  */
+.team-add {
+  background-color: #f3f6f9;
+  padding: 40px;
+}
+.team-add input {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 10px 0 !important;
+  outline: none;
+  padding: 10px;
+}
+.team-input {
+  margin-top: 10px !important;
+}
+.team-add button {
+  background-color: black;
+  color: #f3f6f9;
+  padding: 10px 30px;
+  margin: 20px 0;
+  border-radius: 2px;
+  font-weight: bold;
+}
